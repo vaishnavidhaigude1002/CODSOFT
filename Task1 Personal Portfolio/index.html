@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+
+    <style>
+        /* ---------- Global ---------- */
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #F4F6F8;     /* Main Body */
+            color: #2c2c2c;                /* Font Color */
+        }
+
+        /* ---------- Header ---------- */
+        .main-title {
+            background-color: #14C6C9;    /* Header */
+            color: #FFFFFF;               /* Headings */
+            text-align: center;
+            padding: 30px 10px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        /* ---------- Hero Section ---------- */
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 10%;
+             gap: 40px;
+        }
+
+        .hero-text {
+            max-width: 520px;
+        }
+
+        .hero-text h1 {
+            font-size: 34px;
+            margin-bottom: 10px;
+            color: #070707;              /* Headings */
+        }
+
+        .hero-text h3 {
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+
+        .hero-text p {
+            margin: 15px 0;
+            line-height: 1.6;
+        }
+
+        /* ---------- Accent Button ---------- */
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background-color: #f4c430;   /* Accent / Buttons */
+            color: #000000;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+
+        .hero-image img {
+            width: 200px;
+            border-radius: 50%;
+            background-color: #D4AF37;   /* Accent */
+            padding: 1px;
+        }
+
+        /* ---------- Common Section ---------- */
+        section {
+            padding: 60px 10%;
+        }
+
+        section h2 {
+            font-size: 26px;
+            margin-bottom: 20px;
+            color: #0b0b0b;             /* Headings */
+        }
+
+        /* ---------- Skills ---------- */
+        .skill-box {
+            border-top: 2px solid #D4AF37;
+            padding-top: 20px;
+        }
+
+        .skill-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #333;
+        }
+
+        /* ---------- Projects ---------- */
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h4 {
+            margin-bottom: 5px;
+            color: #5f18bb;
+        }
+
+        /* ---------- Footer ---------- */
+        footer {
+            background-color: #0F8b8d;   /* Footer */
+            color: #E5E5E5;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="main-title">
+          Portfolio Website  
+    </div>
+
+    <!--   About -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Hi, I am Vaishnavi</h1>
+            <h3>Web Development Learner</h3>
+            <h3>IT Engineering Student</h3>
+
+            <p>
+                I am  IT engineering student learning web development.
+                I enjoy creating modern, clean websites using HTML and CSS.
+            </p>
+
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="/photo.jpg" alt="Profile Image">
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h2>SKILL SETS</h2>
+        <div class="skill-box">
+            <div class="skill-item">
+                <span>HTML</span>
+                <span>Intermediate</span>
+            </div>
+            <div class="skill-item">
+                <span>CSS</span>
+                <span>Beginner</span>
+            </div>
+            <div class="skill-item">
+                <span>C Programming</span>
+                <span>Beginner</span>
+            </div>
+            <div class="skill-item">
+                <span>Problem Solving</span>
+                <span>Basic</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h2>PROJECTS</h2>
+        <div class="project">
+            <h4>Library Management System</h4>
+            <p>This project helps manage books,members and transaction like issue and return. </p>
+        </div>
+        <div class="project">
+            <h4>Fort Explorer</h4>
+            <p>This website provide information about historical forts and there significance.</p>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section>
+        <h2>RESUME</h2>
+        <p>You can download my resume in PDF format below.</p>
+        <a href="#" download class="btn">Download Resume (PDF)</a>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <p>Email: yourmail@example.com</p>
+        <p>Phone: +91 XXXXX XXXXX</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2026 Vaishnavi Dhaigude | All Rights Reserved
+    </footer>
+
+</body>
+
+</html>
+
